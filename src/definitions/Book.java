@@ -13,7 +13,19 @@ public class Book {
   private String nameOfTheAuthorOfTheBook;
   private String thirteenDigitISBNNumberOfTheBook;
 
+  // Parameterized Constructor
+  public Book(String nameOfTheBook, String nameOfTheAuthorOfTheBook, String thirteenDigitISBNNumberOfTheBook) {
+    this.nameOfTheBook = nameOfTheBook;
+    this.nameOfTheAuthorOfTheBook = nameOfTheAuthorOfTheBook;
+    this.thirteenDigitISBNNumberOfTheBook = thirteenDigitISBNNumberOfTheBook;
+  }
 
+  // Non-Parameterized Constructor
+  public Book() {
+    this.nameOfTheBook = null;
+    this.nameOfTheAuthorOfTheBook = null;
+    this.thirteenDigitISBNNumberOfTheBook = null;
+  }
 
 
 }
