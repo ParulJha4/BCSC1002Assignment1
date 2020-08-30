@@ -6,5 +6,14 @@
  * */
 package definitions;
 
+import java.util.Objects;
+
 public class Book {
+  private String nameOfTheBook;
+  private String nameOfTheAuthorOfTheBook;
+  private String thirteenDigitISBNNumberOfTheBook;
+
+
+
+
 }
